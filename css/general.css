@@ -1,0 +1,36 @@
+.btn {
+    border-radius: 8px;
+    background-color: #ff9549;
+    border: none;
+    font-weight: 500;
+    font-size: 14px;
+    color: #181818;
+}
+
+.btn span {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.btn--size--high {
+    padding: 18.5px 30px;
+}
+
+.btn--size--medium {
+    padding: 16px 30px;
+}
+
+.btn--size--small {
+    padding: 14px 30px;
+}
+
+.btn--call-me span::before {
+    content: "";
+    display: inline-block;
+    background-image: url(../imeges/phone.svg);
+    width: 20px;
+    height: 20px;
+    background-position: center;
+    background-size: contain;
+}
